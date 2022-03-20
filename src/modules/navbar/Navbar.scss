@@ -1,0 +1,25 @@
+nav {
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+	@apply pt-6 pb-4;
+}
+
+.navbar-item {
+    cursor: pointer;
+    @apply select-none;
+	@apply text-lg;
+
+	&:not(&:last-child) {
+		@apply pr-6;
+	}
+
+	&-container {
+		display: flex;
+	}
+}
+
+.logo {
+    @apply select-none;
+	@apply text-3xl;
+}
