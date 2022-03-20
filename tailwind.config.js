@@ -22,8 +22,9 @@ module.exports = {
 				card: "1px 3px 4px #E7E7E7",
 			},
 			fontFamily: {
-				sans: ["League Spartan", "Noto Sans TC", ...defaultTheme.fontFamily.sans],
+				sans: ["Lato", "Noto Sans TC", ...defaultTheme.fontFamily.sans],
 				roboto: "Roboto Slab",
+				nav: "League Spartan",
 			},
 		},
 	},

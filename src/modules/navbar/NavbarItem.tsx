@@ -12,7 +12,7 @@ export default function NavbarItem({ title, to }: NavBarItemProps) {
 	const isSelected = router.asPath.includes(to);
 	const selectedStyle = isSelected ? "text-primary" : "text-content-dark hover:text-primary";
 	return (
-		<div className='navbar-item'>
+		<div className='navbar-item font-nav' >
 			<Link href={to}>
 				<span className={`${selectedStyle}`}>{title}</span>
 			</Link>

@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import "modules/navbar/Navbar.scss";
+@import "modules/home_page/HomePage.scss";
 
 .page-px {
 	@apply px-60;
