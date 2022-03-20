@@ -2,11 +2,12 @@ nav {
 	display: flex;
     align-items: center;
 	justify-content: space-between;
-	@apply pt-6 pb-4;
+	@apply pt-8 pb-10;
 }
 
 .navbar-item {
     cursor: pointer;
+	font-weight: 500;
     @apply select-none;
 	@apply text-lg;
 
@@ -20,6 +21,7 @@ nav {
 }
 
 .logo {
+	font-weight: 700;
     @apply select-none;
 	@apply text-3xl;
 }

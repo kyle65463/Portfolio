@@ -1,3 +1,7 @@
 export default function HomePage() {
-	return <div>HomePage</div>;
+	return (
+		<div className="page-px">
+			<div className="font-roboto">HomePage</div>
+		</div>
+	);
 }
