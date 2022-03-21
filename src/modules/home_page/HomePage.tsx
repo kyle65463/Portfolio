@@ -84,6 +84,48 @@ export default function HomePage() {
 						</div>
 					</div>
 				</div>
+				<div className='flex justify-center pt-10'>
+					<div className='skill-icon'>
+						<div>
+							<img src='skills/js.png' alt='skill-icon' />
+						</div>
+					</div>
+					<div className='skill-icon'>
+						<div>
+							<img src='skills/ts.png' alt='skill-icon' />
+						</div>
+					</div>
+					<div className='skill-icon'>
+						<div>
+							<img src='skills/python.png' alt='skill-icon' />
+						</div>
+					</div>
+					<div className='skill-icon'>
+						<div>
+							<img src='skills/flutter.png' alt='skill-icon' />
+						</div>
+					</div>
+					<div className='skill-icon'>
+						<div>
+							<img src='skills/firebase.png' alt='skill-icon' />
+						</div>
+					</div>
+					<div className='skill-icon'>
+						<div>
+							<img src='skills/gcp.png' alt='skill-icon' />
+						</div>
+					</div>
+					<div className='skill-icon'>
+						<div>
+							<img src='skills/git.png' alt='skill-icon' />
+						</div>
+					</div>
+					<div className='skill-icon'>
+						<div>
+							<img src='skills/react.png' alt='skill-icon' />
+						</div>
+					</div>
+				</div>
 			</section>
 		</div>
 	);

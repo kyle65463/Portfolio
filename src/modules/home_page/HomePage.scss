@@ -1,5 +1,18 @@
 .hero-section {
-    display: flex;
-    align-items: center;
-    @apply pt-10 pb-12;
+	display: flex;
+	align-items: center;
+	@apply pt-10 pb-12;
+}
+
+.skill-icon {
+	@apply px-4;
+
+    div {
+        @apply w-9;
+    }
+
+	&:hover {
+        transition-duration: .3s;
+		transform: scale(130%);
+	}
 }
