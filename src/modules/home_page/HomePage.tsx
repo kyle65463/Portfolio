@@ -1,25 +1,51 @@
+import Link from "next/link";
+
 export default function HomePage() {
 	return (
 		<div>
-			<section className='hero-section page-px'>
-				<div className='avatar'>
-					<div className='w-64 rounded-full'>
-						<img src='avatar.jpg' alt='avatar' />
+			<section className='hero-section page-px pt-20 pb-24'>
+				<div>
+					<div className='avatar'>
+						<div className='w-64 rounded-full'>
+							<img src='avatar.jpg' alt='avatar' />
+						</div>
+					</div>
+					<div className='flex justify-center pt-4'>
+						<div className='contact-icon'>
+							<div>
+								<img src='icons/facebook.png' alt='skill-icon' />
+							</div>
+						</div>
+						<div className='contact-icon'>
+							<div>
+								<img src='icons/github-sm.png' alt='skill-icon' />
+							</div>
+						</div>
+						<div className='contact-icon'>
+							<div>
+								<img src='icons/mail.png' alt='skill-icon' />
+							</div>
+						</div>
 					</div>
 				</div>
-				<div className='pl-24'>
+				<div className='pl-24 pb-6'>
 					<div className='text-4xl font-roboto pb-4'>
-						<h2>Hi,</h2>
 						<h2>
-							I'm <span className='text-primary'>Kyle</span>
+							Hi, I'm <span className='text-primary font-medium'>Kyle</span>
 						</h2>
 					</div>
 					<p className='text-lg'>
-						My name is Kyle. I am a sophomore studying computer science at National Taiwan University (NTU)
-						currently. I have a great passion for software-related techniques, including many different
-						fields, such as machine learning, system programming, network management, web development, app
-						development, and so on, most of them are learned by myself. I like to explore and pick up new
-						skills in my free time, trying and facing various challenges.
+						I'm a student studying computer science in National Taiwan University (NTU) currently, and a
+						<span className='text-primary font-semibold'> full-stack web/app developer </span>
+						as well.
+					</p>
+					<p className='text-lg pt-4'>
+						I like to explore and pick up new skills, and do side projects in my spare time, you can check
+						out some of my
+						<Link href='/projects'>
+							<span className='text-primary font-semibold link'> recent works</span>
+						</Link>
+						.
 					</p>
 				</div>
 			</section>

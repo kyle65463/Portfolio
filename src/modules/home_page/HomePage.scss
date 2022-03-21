@@ -1,18 +1,31 @@
 .hero-section {
 	display: flex;
 	align-items: center;
-	@apply pt-10 pb-12;
+}
+
+.contact-icon {
+	@apply px-2;
+	cursor: pointer;
+
+	div {
+		@apply w-7;
+	}
+
+	&:hover {
+		transition-duration: 0.1s;
+		transform: scale(110%);
+	}
 }
 
 .skill-icon {
 	@apply px-4;
 
-    div {
-        @apply w-9;
-    }
+	div {
+		@apply w-9;
+	}
 
 	&:hover {
-        transition-duration: .3s;
-		transform: scale(130%);
+		transition-duration: 0.25s;
+		transform: scale(125%);
 	}
 }
