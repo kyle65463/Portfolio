@@ -3,11 +3,11 @@ export default function HomePage() {
 		<div>
 			<section className='hero-section page-px'>
 				<div className='avatar'>
-					<div className='w-60 rounded-full'>
+					<div className='w-64 rounded-full'>
 						<img src='avatar.jpg' alt='avatar' />
 					</div>
 				</div>
-				<div className='pl-10'>
+				<div className='pl-24'>
 					<div className='text-4xl font-roboto pb-4'>
 						<h2>Hi,</h2>
 						<h2>
@@ -23,9 +23,9 @@ export default function HomePage() {
 					</p>
 				</div>
 			</section>
-			<div className='flex page-px py-14 bg-base-300'>
+			<div className='flex page-px pt-20 pb-24 bg-base-300'>
 				<section className='flex-1'>
-					<h2 className='font-roboto text-3xl font-medium'>EDUCATION</h2>
+					<h2 className='font-roboto text-3xl font-medium'>Education</h2>
 					<div className='flex pt-10 items-center'>
 						<div className='avatar'>
 							<div className='w-14 rounded-full'>
@@ -40,7 +40,7 @@ export default function HomePage() {
 					</div>
 				</section>
 				<section className='flex-1 pl-10'>
-					<h2 className='font-roboto text-3xl font-medium'>EXPERIENCE</h2>
+					<h2 className='font-roboto text-3xl font-medium'>Experience</h2>
 					<div className='pt-10'>
 						<div className='flex'>
 							<p className='pr-3 text-3xl leading-none select-none'>·</p>
@@ -61,6 +61,30 @@ export default function HomePage() {
 					</div>
 				</section>
 			</div>
+			<section className='page-px pt-20 pb-24'>
+				<h2 className='font-roboto text-3xl font-medium pb-10'>Skills</h2>
+				<div className='grid grid-cols-3 gap-x-6'>
+					<div className='card bg-base-300'>
+						<div className='card-body'>
+							<h2 className='card-title'>Programming Languages</h2>
+							<p className='text-content-light'>JavaScript/TypeScript, Python, C/C++, Java, Dart</p>
+						</div>
+					</div>
+					<div className='card bg-base-300'>
+						<div className='card-body'>
+							<h2 className='card-title'>Web Development</h2>
+							<p className='text-content-light'>HTML/CSS, React, Next, TailwindCSS, SASS</p>
+						</div>
+					</div>
+					<div className='card bg-base-300'>
+						<div className='card-body'>
+							<h2 className='card-title'>Others</h2>
+							<p className='text-content-light'>Flutter, Ionic, GCP, Firebase, Git</p>
+							<p className='text-content-light'>English (TOEIC 945), Japanese (N2)</p>
+						</div>
+					</div>
+				</div>
+			</section>
 		</div>
 	);
 }
