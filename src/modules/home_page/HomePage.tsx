@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { useState, useRef, useEffect } from "react";
+import { useRouter } from "next/router";
 import FadeIn from "react-fade-in";
 
 export default function HomePage() {
+	const router = useRouter();
 	return (
 		<div className='pt-24'>
 			<section className='hero-section page-px pt-20 pb-24'>
@@ -14,21 +15,27 @@ export default function HomePage() {
 							</div>
 						</div>
 						<div className='flex justify-center pt-4'>
-							<div className='contact-icon'>
-								<div>
-									<img src='icons/facebook.png' alt='skill-icon' />
+							<a target='_blank' href='https://www.facebook.com/kyle65643/'>
+								<div className='contact-icon'>
+									<div>
+										<img src='icons/facebook.png' alt='skill-icon' />
+									</div>
 								</div>
-							</div>
-							<div className='contact-icon'>
-								<div>
-									<img src='icons/github-sm.png' alt='skill-icon' />
+							</a>
+							<a target='_blank' href='https://github.com/kyle65463'>
+								<div className='contact-icon'>
+									<div>
+										<img src='icons/github-sm.png' alt='skill-icon' />
+									</div>
 								</div>
-							</div>
-							<div className='contact-icon'>
-								<div>
-									<img src='icons/mail.png' alt='skill-icon' />
+							</a>
+							<a target='_blank' href='mailto:kyle65463@gmail.com'>
+								<div className='contact-icon'>
+									<div>
+										<img src='icons/mail.png' alt='skill-icon' />
+									</div>
 								</div>
-							</div>
+							</a>
 						</div>
 					</div>
 				</FadeIn>
