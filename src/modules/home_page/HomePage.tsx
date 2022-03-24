@@ -46,8 +46,9 @@ export default function HomePage() {
 							</h2>
 						</div>
 						<p className='text-lg text-content-mid'>
-							I'm a student majoring computer science in National Taiwan University (NTU), and a
-							<span className='text-primary font-semibold'> full-stack web/app developer </span>
+							I'm a student majoring computer science in{" "}
+							<span className='text-primary font-semibold'>National Taiwan University</span> (NTU), and a
+							<span className='text-primary font-semibold'> Full-Stack Web/App Developer </span>
 							as well.
 						</p>
 						<p className='text-lg pt-3 text-content-mid'>
@@ -55,7 +56,7 @@ export default function HomePage() {
 							and network management. I have also completed some side projects using my spare time, you
 							can check out my{" "}
 							<Link href='/projects'>
-								<span className='text-primary font-semibold link'>recent works</span>
+								<span className='text-primary font-semibold link'>Recent works</span>
 							</Link>
 							.
 						</p>
