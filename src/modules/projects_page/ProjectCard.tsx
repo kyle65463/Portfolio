@@ -12,7 +12,7 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ title, content, image, link, demo, github }: ProjectCardProps) {
 	return (
-		<div className='card w-80 bg-base-100 shadow-md'>
+		<div className='card bg-base-100 shadow-md'>
 			<figure>
 				<Image src={image} width={1440 / 4.4} height={789 / 4.4} layout='fixed' />
 			</figure>
@@ -22,7 +22,7 @@ export default function ProjectCard({ title, content, image, link, demo, github 
 						{title}
 					</a>
 				</h2>
-				<div className='text-content-light'>{content}</div>
+				<div className='text-content-mid'>{content}</div>
 				<div className='card-actions justify-end'>
 					{link && (
 						<a className='btn btn-primary text-white px-5 btn-sm h-10' href={link} target='_blank'>

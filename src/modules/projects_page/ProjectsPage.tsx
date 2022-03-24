@@ -73,13 +73,13 @@ export default function ProjectPages() {
 		},
 	];
 	return (
-		<div className='pt-24'>
+		<div className='lg:pt-24 pt-12'>
 			{projects.map((project, index) => (
 				<ProjectSection {...project} key={index} transparent={index % 2 == 0} />
 			))}
 			<section className='page-px pt-20 pb-40 bg-base-300'>
 				<h2 className='font-roboto text-3xl font-medium pb-6'>Others</h2>
-				<div className='grid grid-cols-3 pt-6 gap-y-8'>
+				<div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 pt-6 gap-y-8 gap-x-6'>
 					{projects2.map((project, index) => (
 						<ProjectCard {...project} key={index} />
 					))}

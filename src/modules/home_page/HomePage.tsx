@@ -45,12 +45,12 @@ export default function HomePage() {
 								Hi, I'm <span className='text-primary font-medium'>Kyle</span>
 							</h2>
 						</div>
-						<p className='text-lg'>
+						<p className='text-lg text-content-mid'>
 							I'm a student studying computer science in National Taiwan University (NTU) currently, and a
 							<span className='text-primary font-semibold'> full-stack web/app developer </span>
 							as well.
 						</p>
-						<p className='text-lg pt-4'>
+						<p className='text-lg pt-4 text-content-mid'>
 							I like to explore and pick up new skills, and do side projects in my spare time, you can
 							check out some of my{" "}
 							<Link href='/projects'>
@@ -105,20 +105,20 @@ export default function HomePage() {
 					<div className='card bg-base-300'>
 						<div className='card-body'>
 							<h2 className='card-title'>Programming Languages</h2>
-							<p className='text-content-light'>JavaScript/TypeScript, Python, C/C++, Java, Dart</p>
+							<p className='text-content-mid'>JavaScript/TypeScript, Python, C/C++, Java, Dart</p>
 						</div>
 					</div>
 					<div className='card bg-base-300'>
 						<div className='card-body'>
 							<h2 className='card-title'>Web Development</h2>
-							<p className='text-content-light'>HTML/CSS, React, Next, TailwindCSS, SASS</p>
+							<p className='text-content-mid'>HTML/CSS, React, Next, TailwindCSS, SASS</p>
 						</div>
 					</div>
 					<div className='card bg-base-300'>
 						<div className='card-body'>
 							<h2 className='card-title'>Others</h2>
-							<p className='text-content-light'>Flutter, Ionic, GCP, Firebase, Git</p>
-							<p className='text-content-light'>English (TOEIC 945), Japanese (N2)</p>
+							<p className='text-content-mid'>Flutter, Ionic, GCP, Firebase, Git</p>
+							<p className='text-content-mid'>English (TOEIC 945), Japanese (N2)</p>
 						</div>
 					</div>
 				</div>

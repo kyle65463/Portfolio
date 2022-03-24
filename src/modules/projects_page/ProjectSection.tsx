@@ -83,8 +83,8 @@ export default function projectSection({
 			>
 				{transparent ? <div className='md:pr-12'> {displayImage}</div> : <></>}
 				<div>
-					<h2 className={`text-xl md:text-4xl font-bold pb-5`}>{title}</h2>
-					<p className={`text-content-light text-sm md:text-lg transition-all duration-500 ease-in-out`}>
+					<h2 className={`text-2xl md:text-4xl font-bold pb-5`}>{title}</h2>
+					<p className={`text-content-mid text-lg transition-all duration-500 ease-in-out`}>
 						{content}
 					</p>
 				</div>

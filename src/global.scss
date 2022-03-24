@@ -5,11 +5,14 @@
 @import "modules/home_page/HomePage.scss";
 
 .page-px {
-	@screen lg {
-		@apply px-52;
-	}
 	@screen md {
 		@apply px-20;
+	}
+	@screen lg {
+		@apply px-36;
+	}
+	@screen xl {
+		@apply px-52;
 	}
 	@apply px-8;
 }
