@@ -4,12 +4,12 @@ import FadeIn from "react-fade-in";
 
 export default function HomePage() {
 	return (
-		<div className='pt-24'>
-			<section className='hero-section page-px pt-20 pb-24'>
+		<div className='lg:pt-24 pt-12'>
+			<section className='flex justify-center page-px pt-20 lg:pb-24 pb-16 flex-col lg:flex-row items-center'>
 				<FadeIn>
 					<div>
 						<div className='avatar'>
-							<div className='w-64 rounded-full'>
+							<div className='lg:w-64 w-52 rounded-full'>
 								<img src='avatar.jpg' alt='avatar' />
 							</div>
 						</div>
@@ -39,8 +39,8 @@ export default function HomePage() {
 					</div>
 				</FadeIn>
 				<FadeIn delay={350}>
-					<div className='pl-24 pb-6'>
-						<div className='text-4xl font-roboto pb-4'>
+					<div className='lg:pl-24 pb-6 lg:pt-0 pt-12'>
+						<div className='lg:text-4xl text-3xl font-roboto pb-4'>
 							<h2>
 								Hi, I'm <span className='text-primary font-medium'>Kyle</span>
 							</h2>
@@ -61,7 +61,7 @@ export default function HomePage() {
 					</div>
 				</FadeIn>
 			</section>
-			<div className='flex page-px pt-20 pb-24 bg-base-300'>
+			<div className='flex page-px pt-20 pb-24 bg-base-300 lg:flex-row flex-col'>
 				<section className='flex-1'>
 					<h2 className='font-roboto text-3xl font-medium'>Education</h2>
 					<div className='flex pt-10 items-center'>
@@ -77,7 +77,7 @@ export default function HomePage() {
 						</div>
 					</div>
 				</section>
-				<section className='flex-1 pl-10'>
+				<section className='flex-1 lg:pl-10 lg:pt-0 pt-20 pl-0'>
 					<h2 className='font-roboto text-3xl font-medium'>Experience</h2>
 					<div className='pt-10'>
 						<div className='flex'>
@@ -101,7 +101,7 @@ export default function HomePage() {
 			</div>
 			<section className='page-px pt-20 pb-24'>
 				<h2 className='font-roboto text-3xl font-medium pb-10'>Skills</h2>
-				<div className='grid grid-cols-3 gap-x-6'>
+				<div className='grid xl:grid-cols-3 grid-cols-1 gap-x-6 gap-y-4'>
 					<div className='card bg-base-300'>
 						<div className='card-body'>
 							<h2 className='card-title'>Programming Languages</h2>
@@ -122,7 +122,7 @@ export default function HomePage() {
 						</div>
 					</div>
 				</div>
-				<div className='flex justify-center pt-10'>
+				<div className='flex justify-center pt-10 flex-wrap gap-y-6'>
 					<div className='skill-icon'>
 						<div>
 							<img src='skills/js.png' alt='skill-icon' />

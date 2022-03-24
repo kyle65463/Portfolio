@@ -4,7 +4,11 @@ nav {
     align-items: center;
 	justify-content: space-between;
 	width: 100%;
-	@apply pt-8 pb-10;
+
+	@screen md {
+		@apply pt-8;
+	}
+	@apply pt-4 pb-10;
 }
 
 .navbar-item {
