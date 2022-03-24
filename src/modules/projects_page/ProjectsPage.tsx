@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectCard from "./ProjectCard";
 import ProjectSection from "./ProjectSection";
 
 export default function ProjectPages() {
@@ -13,8 +14,7 @@ export default function ProjectPages() {
 					</p>
 					<br />
 					<p>
-						「背日文神器」使用 Flutter/Dart 進行開發，並以 Firebase 為後端，在
-						iOS/Android
+						「背日文神器」使用 Flutter/Dart 進行開發，並以 Firebase 為後端，在 iOS/Android
 						雙平台上都有上架。目前已有數千下載次數，每月活躍使用者也超過一千人。
 					</p>
 				</>
@@ -22,8 +22,7 @@ export default function ProjectPages() {
 			image: "/projects/jp-memorizer.png",
 			appstore:
 				"https://apps.apple.com/us/app/%E8%83%8C%E6%97%A5%E6%96%87%E7%A5%9E%E5%99%A8-%E6%97%A5%E6%AA%A2%E5%BF%85%E5%82%99%E5%96%AE%E5%AD%97%E6%95%91%E6%98%9F/id1550577799",
-			playstore:
-				"https://play.google.com/store/apps/details?id=com.kyle65463.japanese_memorizer",
+			playstore: "https://play.google.com/store/apps/details?id=com.kyle65463.japanese_memorizer",
 		},
 		{
 			title: "Cuby - 魔術方塊計時器",
@@ -56,23 +55,20 @@ export default function ProjectPages() {
 					</p>
 					<br />
 					<p>
-						在開發上我們主要程式語言使用 Java 進行物件導向的設計，並搭配 JavaFX 作為 GUI
-						框架。連線方面使用 Java 內建的 web socket，原始碼總行數高達六千多行。
+						在開發上我們主要程式語言使用 Java 進行物件導向的設計，並搭配 JavaFX 作為 GUI 框架。連線方面使用
+						Java 內建的 web socket，原始碼總行數高達六千多行。
 					</p>
 					<br />
 					<p>組員： kyle65463、smile04455660、misterSu514</p>
 					<p>
 						Demo影片：{" "}
-						<a
-							className="text-primary"
-							href="https://www.youtube.com/watch?v=gHtup-ZRhrU"
-						>
+						<a className='text-primary' href='https://www.youtube.com/watch?v=gHtup-ZRhrU'>
 							https://www.youtube.com/watch?v=gHtup-ZRhrU
 						</a>
 					</p>
 					<p>
 						正版遊戲網站連結：{" "}
-						<a className="text-primary" href="https://dominion.games/">
+						<a className='text-primary' href='https://dominion.games/'>
 							https://dominion.games/
 						</a>
 					</p>
@@ -81,50 +77,44 @@ export default function ProjectPages() {
 			image: "/projects/dominion.png",
 			github: "https://github.com/kyle65463/dominion",
 		},
+	];
+
+	const projects2 = [
 		{
 			title: "JS Tetris",
-			link: "https://kyle65463.github.io/js-tetris/",
-			content: (
-				<>
-					<p>
-						復刻經典遊戲「Tetris」俄羅斯方塊，使用純 Javascript + HTML canvas
-						開發，當作一個練習 Javascript 的簡單小專案。
-					</p>
-					<br />
-
-					<span>遊戲玩法：</span>
-					<ul>
-						<li>- 左右方向鍵：控制方塊左右移動 </li>
-						<li>- 上方向鍵：控制方塊旋轉</li>
-						<li>- 空白鍵直接落下方塊至最底層</li>
-						<li>- c：儲存/交換方塊</li>
-						<li>- esc：暫停遊戲</li>
-					</ul>
-					<br />
-					<p>
-						遊戲連結：{" "}
-						<a className="text-secondary" href="https://kyle65463.github.io/js-tetris/">
-							https://kyle65463.github.io/js-tetris/
-						</a>
-					</p>
-				</>
-			),
+			link: "https://kyle65463.github.io/JS-Tetris/",
+			content: "復刻經典遊戲「Tetris」俄羅斯方塊，使用純 Javascript + HTML canvas 開發",
 			image: "/projects/js-tetris.png",
 			github: "https://github.com/kyle65463/js-tetris",
 		},
 		{
-			title: "個人部落格",
-			content:
-				"現在看到的這個網站，用來分享、紀錄一些學習上的心得，目前主要以 Flutter 相關教學為主，未來也許會更新一些不同方向的文章。開發上，前端使用了 React.js + Next.js + Tailwind CSS，並用 Vercel 架設網站。",
-			image: "/projects/bird.png",
-			github: "https://github.com/kyle65463/tech-blog",
+			title: "GitHub Repo Viewer",
+			link: "https://kyle65463.github.io/JS-Tetris/",
+			content: "復刻經典遊戲「Tetris」俄羅斯方塊，使用純 Javascript + HTML canvas 開發",
+			image: "/projects/github-viewer.png",
+			github: "https://github.com/kyle65463/js-tetris",
+		},
+		{
+			title: "Intersection Managment",
+			link: "https://kyle65463.github.io/JS-Tetris/",
+			content: "復刻經典遊戲「Tetris」俄羅斯方塊，使用純 Javascript + HTML canvas 開發",
+			image: "/projects/intersection.png",
+			github: "https://github.com/kyle65463/js-tetris",
 		},
 	];
 	return (
-		<div className="pt-24">
+		<div className='pt-24'>
 			{projects.map((project, index) => (
 				<ProjectSection {...project} key={index} transparent={index % 2 == 0} />
 			))}
+			<section className='page-px pt-20 pb-24 bg-base-300'>
+				<h2 className='text-xl md:text-4xl font-bold pb-5'>其他專案</h2>
+				<div className='grid grid-cols-3 pt-6 '>
+					{projects2.map((project, index) => (
+						<ProjectCard {...project} key={index} />
+					))}
+				</div>
+			</section>
 		</div>
 	);
 }
