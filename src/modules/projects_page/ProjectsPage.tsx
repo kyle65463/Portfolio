@@ -35,33 +35,34 @@ export default function ProjectPages() {
 	const projects2 = [
 		{
 			title: "Cuby",
-			link: "https://kyle65463.github.io/JS-Tetris/",
+			link: "https://play.google.com/store/apps/details?id=com.kyle65463.cubetimer",
 			content:
 				"A timer for rubik's cube inspired by Twisty Timer. Currently available on Play Store and App Store.",
 			image: "/projects/cuby.png",
-			github: "https://github.com/kyle65463/js-tetris",
+			github: "https://github.com/kyle65463/cube-timer",
 		},
 		{
 			title: "GitHub Repo Viewer",
-			link: "https://kyle65463.github.io/JS-Tetris/",
+			link: "https://www.githubviewer.kyle65463.com/",
 			content: "A simple application that can list GitHub repositories of specific users.",
 			image: "/projects/github-viewer.png",
-			github: "https://github.com/kyle65463/js-tetris",
+			github: "https://github.com/kyle65463/github-repo-viewer",
 		},
 		{
 			title: "Intersection Managment",
-			link: "https://kyle65463.github.io/JS-Tetris/",
+			link: "https://www.intersection.kyle65463.com/",
 			content:
 				"A implementation and visualization of different algorithms solving the intersection management problem.",
 			image: "/projects/intersection.png",
-			github: "https://github.com/kyle65463/js-tetris",
+			demo: "https://www.youtube.com/watch?v=eURIXvr2Nec",
+			github: "https://github.com/kyle65463/intersection-management",
 		},
 		{
 			title: "Dominion",
-			link: "https://kyle65463.github.io/JS-Tetris/",
 			content: 'A replica of the famous board game "Dominion" using JavaFX and sockets.',
 			image: "/projects/dominion.png",
-			github: "https://github.com/kyle65463/js-tetris",
+			github: "https://github.com/kyle65463/dominion",
+			demo: "https://www.youtube.com/watch?v=gHtup-ZRhrU",
 		},
 		{
 			title: "JS Tetris",
