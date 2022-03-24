@@ -1,5 +1,5 @@
-import HomePage from "@modules/home_page/HomePage";
+import ProjectsPage from "@modules/projects_page/ProjectsPage";
 
 export default function index() {
-	return <HomePage/>
+	return <ProjectsPage/>
 }

@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 import FadeIn from "react-fade-in";
 
 export default function HomePage() {
-	const router = useRouter();
 	return (
 		<div className='pt-24'>
 			<section className='hero-section page-px pt-20 pb-24'>
