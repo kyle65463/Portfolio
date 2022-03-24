@@ -46,13 +46,14 @@ export default function HomePage() {
 							</h2>
 						</div>
 						<p className='text-lg text-content-mid'>
-							I'm a student studying computer science in National Taiwan University (NTU) currently, and a
+							I'm a student majoring computer science in National Taiwan University (NTU), and a
 							<span className='text-primary font-semibold'> full-stack web/app developer </span>
 							as well.
 						</p>
-						<p className='text-lg pt-4 text-content-mid'>
-							I like to explore and pick up new skills, and do side projects in my spare time, you can
-							check out some of my{" "}
+						<p className='text-lg pt-3 text-content-mid'>
+							I like to explore and pick up new skills, such as machine learning (NLP), computer security
+							and network management. I have also completed some side projects using my spare time, you
+							can check out my{" "}
 							<Link href='/projects'>
 								<span className='text-primary font-semibold link'>recent works</span>
 							</Link>
@@ -73,7 +74,7 @@ export default function HomePage() {
 						<div className='pl-4 flex-1'>
 							<h3 className='text-xl font-semibold'>National Taiwan University</h3>
 							<h4>Bachelor of Computer Science and Informational Engineering</h4>
-							<span className='text-content-light text-sm'>2019 - 2023 (expected)</span>
+							<span className='text-content-light text-sm'>2019 - 2023 (Expected)</span>
 						</div>
 					</div>
 				</section>
@@ -85,7 +86,7 @@ export default function HomePage() {
 							<div>
 								<h3 className='text-xl font-semibold'>Full-Stack Engineer Intern</h3>
 								<h4>SUIQUI Co.,Ltd.</h4>
-								<span className='text-content-light text-sm'>Sep 2021 - now</span>
+								<span className='text-content-light text-sm'>Sep 2021 - PRESENT</span>
 							</div>
 						</div>
 						<div className='flex pt-6'>
@@ -93,7 +94,7 @@ export default function HomePage() {
 							<div>
 								<h3 className='text-xl font-semibold'>Wired Network Group Leader</h3>
 								<h4>NTU CSIE Network Administration and System Administration Team</h4>
-								<span className='text-content-light text-sm'>Mar 2021 - now</span>
+								<span className='text-content-light text-sm'>Mar 2021 - PRESENT</span>
 							</div>
 						</div>
 					</div>
@@ -118,7 +119,7 @@ export default function HomePage() {
 						<div className='card-body'>
 							<h2 className='card-title'>Others</h2>
 							<p className='text-content-mid'>Flutter, Ionic, GCP, Firebase, Git</p>
-							<p className='text-content-mid'>English (TOEIC 945), Japanese (N2)</p>
+							<p className='text-content-mid'>English (TOEIC 940), Japanese (N2)</p>
 						</div>
 					</div>
 				</div>
