@@ -79,7 +79,7 @@ export default function ProjectPages() {
 			))}
 			<section className='page-px pt-20 pb-40 bg-base-300'>
 				<h2 className='font-roboto text-3xl font-medium pb-6'>Others</h2>
-				<div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 pt-6 gap-y-8 gap-x-6'>
+				<div className='grid 4xl:grid-cols-5 3xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 pt-6 gap-y-8 gap-x-6'>
 					{projects2.map((project, index) => (
 						<ProjectCard {...project} key={index} />
 					))}
