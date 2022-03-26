@@ -1,5 +1,5 @@
-import React from "react";
 import Image from "next/image";
+import React from "react";
 
 interface ProjectCardProps {
 	title: string;
@@ -14,7 +14,7 @@ export default function ProjectCard({ title, content, image, link, demo, github 
 	return (
 		<div className='card bg-base-100 shadow-md'>
 			<figure>
-				<Image src={image} width={1440 / 4.4} height={789 / 4.4} layout='fixed' />
+				<Image src={image} width={1440 / 4.4} height={789 / 4.4} layout='responsive' />
 			</figure>
 			<div className='card-body'>
 				<h2 className='card-title'>

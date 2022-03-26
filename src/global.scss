@@ -14,5 +14,11 @@
 	@screen xl {
 		@apply px-52;
 	}
+	@screen 2xl {
+		@apply px-72;
+	}
+	@screen 3xl {
+		@apply px-80;
+	}
 	@apply px-8;
 }

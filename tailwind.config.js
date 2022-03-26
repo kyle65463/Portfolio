@@ -26,6 +26,11 @@ module.exports = {
 				roboto: "Roboto Slab",
 				nav: "League Spartan",
 			},
+			screens: {
+				"4xl": { min: "2335px" },
+				"3xl": { min: "1935px" },
+				"2xl": { min: "1535px" },
+			},
 		},
 	},
 	plugins: [require("daisyui"), require("tailwindcss"), require("precss"), require("autoprefixer")],
