@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectSection from "./ProjectSection";
 
@@ -20,8 +19,9 @@ export default function ProjectPages() {
 					</p>
 					<p className='pt-3'>
 						The app was designed and developed by myself from scratch using the{" "}
-						<span className='text-primary'>Flutter</span> framework. And the web version with React as
-						frontend and Google Cloud Function as backend is under development.
+						<span className='text-primary'>Flutter</span> framework. I'm currently working on the web
+						version with <span className='text-primary'>React</span> and{" "}
+						<span className='text-primary'>Express</span>.
 					</p>
 				</>
 			),

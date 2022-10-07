@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { useRouter } from "next/router";
 import FadeIn from "react-fade-in";
 
 export default function HomePage() {
@@ -78,6 +77,18 @@ export default function HomePage() {
 							<span className='text-content-light text-sm'>2019 - 2023 (Expected)</span>
 						</div>
 					</div>
+					<div className='flex pt-8 items-center'>
+						<div className='avatar'>
+							<div className='w-14 rounded-full'>
+								<img src='ntu.jpeg' alt='ntu' />
+							</div>
+						</div>
+						<div className='pl-4 flex-1'>
+							<h3 className='text-xl font-semibold'>National Taiwan University</h3>
+							<h4>Creativity and Entrepreneurship Program</h4>
+							<span className='text-content-light text-sm'>2022 - 2023 (Expected)</span>
+						</div>
+					</div>
 				</section>
 				<section className='flex-1 lg:pl-10 lg:pt-0 pt-20 pl-0'>
 					<h2 className='font-roboto text-3xl font-medium'>Experience</h2>
@@ -95,7 +106,7 @@ export default function HomePage() {
 							<div>
 								<h3 className='text-xl font-semibold'>Wired Network Group Leader</h3>
 								<h4>NTU CSIE Network Administration and System Administration Team</h4>
-								<span className='text-content-light text-sm'>Mar 2021 - PRESENT</span>
+								<span className='text-content-light text-sm'>Mar 2021 - Aug 2022</span>
 							</div>
 						</div>
 					</div>
@@ -113,13 +124,13 @@ export default function HomePage() {
 					<div className='card bg-base-300'>
 						<div className='card-body'>
 							<h2 className='card-title'>Web Development</h2>
-							<p className='text-content-mid'>HTML/CSS, React, Next, TailwindCSS, SASS</p>
+							<p className='text-content-mid'>HTML/CSS, React, Next, TailwindCSS, SASS, Redux</p>
 						</div>
 					</div>
 					<div className='card bg-base-300'>
 						<div className='card-body'>
 							<h2 className='card-title'>Others</h2>
-							<p className='text-content-mid'>Flutter, Ionic, GCP, Firebase, Git</p>
+							<p className='text-content-mid'>Flutter, Express, GCP, Firebase, Git</p>
 							<p className='text-content-mid'>English (TOEIC 940), Japanese (N2)</p>
 						</div>
 					</div>
