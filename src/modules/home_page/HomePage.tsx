@@ -3,13 +3,13 @@ import FadeIn from "react-fade-in";
 
 export default function HomePage() {
 	return (
-		<div className='lg:pt-24 pt-12'>
-			<section className='flex justify-center page-px pt-20 lg:pb-24 pb-16 flex-col lg:flex-row items-center'>
+		<div className='pt-12 lg:pt-24'>
+			<section className='flex flex-col items-center justify-center pt-20 pb-16 page-px lg:pb-24 lg:flex-row'>
 				<FadeIn>
 					<div>
 						<div className='avatar'>
-							<div className='lg:w-64 w-52 rounded-full'>
-								<img src='avatar.jpg' alt='avatar' />
+							<div className='rounded-full lg:w-64 w-52'>
+								<img src='avatar.png' alt='avatar' />
 							</div>
 						</div>
 						<div className='flex justify-center pt-4'>
@@ -38,67 +38,67 @@ export default function HomePage() {
 					</div>
 				</FadeIn>
 				<FadeIn delay={350}>
-					<div className='lg:pl-24 pb-6 lg:pt-0 pt-12'>
-						<div className='lg:text-4xl text-3xl font-roboto pb-4'>
+					<div className='pt-12 pb-6 lg:pl-24 lg:pt-0'>
+						<div className='pb-4 text-3xl lg:text-4xl font-roboto'>
 							<h2>
-								Hi, I'm <span className='text-primary font-medium'>Kyle</span>
+								Hi, I'm <span className='font-medium text-primary'>Kyle</span>
 							</h2>
 						</div>
 						<p className='text-lg text-content-mid'>
 							I'm a student majoring computer science in{" "}
-							<span className='text-primary font-semibold'>National Taiwan University</span> (NTU), and a
-							<span className='text-primary font-semibold'> Full-Stack Web/App Developer </span>
+							<span className='font-semibold text-primary'>National Taiwan University</span> (NTU), and a
+							<span className='font-semibold text-primary'> Full-Stack Web/App Developer </span>
 							as well.
 						</p>
-						<p className='text-lg pt-3 text-content-mid'>
+						<p className='pt-3 text-lg text-content-mid'>
 							I like to explore and pick up new skills, such as machine learning (NLP), computer security
 							and network management. I have also completed some side projects using my spare time, you
 							can check out my{" "}
 							<Link href='/projects'>
-								<span className='text-primary font-semibold link'>Recent works</span>
+								<span className='font-semibold text-primary link'>Recent works</span>
 							</Link>
 							.
 						</p>
 					</div>
 				</FadeIn>
 			</section>
-			<div className='flex page-px pt-20 pb-24 bg-base-300 lg:flex-row flex-col'>
+			<div className='flex flex-col pt-20 pb-24 page-px bg-base-300 lg:flex-row'>
 				<section className='flex-1'>
-					<h2 className='font-roboto text-3xl font-medium'>Education</h2>
-					<div className='flex pt-10 items-center'>
+					<h2 className='text-3xl font-medium font-roboto'>Education</h2>
+					<div className='flex items-center pt-10'>
 						<div className='avatar'>
-							<div className='w-14 rounded-full'>
+							<div className='rounded-full w-14'>
 								<img src='ntu.jpeg' alt='ntu' />
 							</div>
 						</div>
-						<div className='pl-4 flex-1'>
+						<div className='flex-1 pl-4'>
 							<h3 className='text-xl font-semibold'>National Taiwan University</h3>
 							<h4>Bachelor of Computer Science and Informational Engineering</h4>
-							<span className='text-content-light text-sm'>2019 - 2023 (Expected)</span>
+							<span className='text-sm text-content-light'>2019 - 2023 (Expected)</span>
 						</div>
 					</div>
-					<div className='flex pt-8 items-center'>
+					<div className='flex items-center pt-8'>
 						<div className='avatar'>
-							<div className='w-14 rounded-full'>
+							<div className='rounded-full w-14'>
 								<img src='ntu.jpeg' alt='ntu' />
 							</div>
 						</div>
-						<div className='pl-4 flex-1'>
+						<div className='flex-1 pl-4'>
 							<h3 className='text-xl font-semibold'>National Taiwan University</h3>
 							<h4>Creativity and Entrepreneurship Program</h4>
-							<span className='text-content-light text-sm'>2022 - 2023 (Expected)</span>
+							<span className='text-sm text-content-light'>2022 - 2023 (Expected)</span>
 						</div>
 					</div>
 				</section>
-				<section className='flex-1 lg:pl-10 lg:pt-0 pt-20 pl-0'>
-					<h2 className='font-roboto text-3xl font-medium'>Experience</h2>
+				<section className='flex-1 pt-20 pl-0 lg:pl-10 lg:pt-0'>
+					<h2 className='text-3xl font-medium font-roboto'>Experience</h2>
 					<div className='pt-10'>
 						<div className='flex'>
 							<p className='pr-3 text-3xl leading-none select-none'>·</p>
 							<div>
 								<h3 className='text-xl font-semibold'>Full-Stack Engineer Intern</h3>
 								<h4>SUIQUI Co.,Ltd.</h4>
-								<span className='text-content-light text-sm'>Sep 2021 - PRESENT</span>
+								<span className='text-sm text-content-light'>Sep 2021 - PRESENT</span>
 							</div>
 						</div>
 						<div className='flex pt-6'>
@@ -106,15 +106,15 @@ export default function HomePage() {
 							<div>
 								<h3 className='text-xl font-semibold'>Wired Network Group Leader</h3>
 								<h4>NTU CSIE Network Administration and System Administration Team</h4>
-								<span className='text-content-light text-sm'>Mar 2021 - Aug 2022</span>
+								<span className='text-sm text-content-light'>Mar 2021 - Aug 2022</span>
 							</div>
 						</div>
 					</div>
 				</section>
 			</div>
-			<section className='page-px pt-20 pb-24'>
-				<h2 className='font-roboto text-3xl font-medium pb-10'>Skills</h2>
-				<div className='grid xl:grid-cols-3 grid-cols-1 gap-x-6 gap-y-4'>
+			<section className='pt-20 pb-24 page-px'>
+				<h2 className='pb-10 text-3xl font-medium font-roboto'>Skills</h2>
+				<div className='grid grid-cols-1 xl:grid-cols-3 gap-x-6 gap-y-4'>
 					<div className='card bg-base-300'>
 						<div className='card-body'>
 							<h2 className='card-title'>Programming Languages</h2>
@@ -135,7 +135,7 @@ export default function HomePage() {
 						</div>
 					</div>
 				</div>
-				<div className='flex justify-center pt-10 flex-wrap gap-y-6'>
+				<div className='flex flex-wrap justify-center pt-10 gap-y-6'>
 					<div className='skill-icon'>
 						<div>
 							<img src='skills/js.png' alt='skill-icon' />
