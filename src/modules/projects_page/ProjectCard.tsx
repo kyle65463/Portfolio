@@ -5,32 +5,32 @@ interface ProjectCardProps {
 	title: string;
 	content: any;
 	image: string;
-	github: string;
+	github?: string;
 	link?: string;
 	demo?: string;
 }
 
 export default function ProjectCard({ title, content, image, link, demo, github }: ProjectCardProps) {
 	return (
-		<div className='card bg-base-100 shadow-md'>
+		<div className='shadow-md card bg-base-100'>
 			<figure>
 				<Image src={image} width={1440 / 4.4} height={789 / 4.4} layout='fixed' />
 			</figure>
 			<div className='card-body'>
 				<h2 className='card-title'>
-					<a href={github} target='_blank'>
+					{github ? <a href={github} target='_blank'>
 						{title}
-					</a>
+					</a> : title}
 				</h2>
 				<div className='text-content-mid'>{content}</div>
-				<div className='card-actions justify-end'>
+				<div className='justify-end card-actions'>
 					{link && (
-						<a className='btn btn-primary text-white px-5 btn-sm h-10' href={link} target='_blank'>
+						<a className='h-10 px-5 text-white btn btn-primary btn-sm' href={link} target='_blank'>
 							Link
 						</a>
 					)}
 					{demo && (
-						<a className='btn btn-accent text-white px-5 btn-sm h-10' href={demo} target='_blank'>
+						<a className='h-10 px-5 text-white btn btn-accent btn-sm' href={demo} target='_blank'>
 							Demo
 						</a>
 					)}

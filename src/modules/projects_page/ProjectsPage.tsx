@@ -13,9 +13,10 @@ export default function ProjectPages() {
 					</p>
 					<p className='pt-3'>
 						The app was published on both the App Store and Google Play Store, having{" "}
-						<span className='text-primary'>13K+ downloads</span> ,{" "}
-						<span className='text-primary'>4.5+ average star rates</span>, and{" "}
-						<span className='text-primary'>2.5K+ monthly active users</span>.
+						<span className='text-primary'>20K+ downloads</span> ,{" "}
+						<span className='text-primary'>4.5+ average star rates</span>, {" "}
+						<span className='text-primary'>2.8K+ monthly active users</span>, and {" "}
+						<span className='text-primary'>100+ monthly active subscriptions</span>.
 					</p>
 					<p className='pt-3'>
 						The app was designed and developed by myself from scratch using the{" "}
@@ -33,6 +34,13 @@ export default function ProjectPages() {
 	];
 
 	const projects2 = [
+		{
+			title: "Zhiren",
+			link: "https://www.zhiren.io/",
+			content:
+				"A website that helps computer science major freshmen create resumes with ease.",
+			image: "/projects/zhiren.png",
+		},
 		{
 			title: "Cuby",
 			link: "https://play.google.com/store/apps/details?id=com.kyle65463.cubetimer",
@@ -73,13 +81,13 @@ export default function ProjectPages() {
 		},
 	];
 	return (
-		<div className='lg:pt-24 pt-12'>
+		<div className='pt-12 lg:pt-24'>
 			{projects.map((project, index) => (
 				<ProjectSection {...project} key={index} transparent={index % 2 == 0} />
 			))}
-			<section className='page-px pt-20 pb-40 bg-base-300'>
-				<h2 className='font-roboto text-3xl font-medium pb-6'>Others</h2>
-				<div className='grid 4xl:grid-cols-5 3xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 pt-6 gap-y-8 gap-x-6'>
+			<section className='pt-20 pb-40 page-px bg-base-300'>
+				<h2 className='pb-6 text-3xl font-medium font-roboto'>Others</h2>
+				<div className='grid grid-cols-1 pt-6 4xl:grid-cols-5 3xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 gap-y-8 gap-x-6'>
 					{projects2.map((project, index) => (
 						<ProjectCard {...project} key={index} />
 					))}
