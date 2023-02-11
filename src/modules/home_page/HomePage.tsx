@@ -96,7 +96,15 @@ export default function HomePage() {
 						<div className='flex'>
 							<p className='pr-3 text-3xl leading-none select-none'>·</p>
 							<div>
-								<h3 className='text-xl font-semibold'>Full-Stack Engineer Intern</h3>
+								<h3 className='text-xl font-semibold'>Backend Engineer Intern Lead</h3>
+								<h4>National Taiwan University Oﬀice of Academic Affairs</h4>
+								<span className='text-sm text-content-light'>Nov 2022 - PRESENT</span>
+							</div>
+						</div>
+						<div className='flex pt-6'>
+							<p className='pr-3 text-3xl leading-none select-none'>·</p>
+							<div>
+								<h3 className='text-xl font-semibold'>Frontend Engineer Intern</h3>
 								<h4>SUIQUI Co.,Ltd.</h4>
 								<span className='text-sm text-content-light'>Sep 2021 - PRESENT</span>
 							</div>
@@ -124,7 +132,7 @@ export default function HomePage() {
 					<div className='card bg-base-300'>
 						<div className='card-body'>
 							<h2 className='card-title'>Web Development</h2>
-							<p className='text-content-mid'>HTML/CSS, React, Next, TailwindCSS, SASS, Redux</p>
+							<p className='text-content-mid'>HTML/CSS, React, Next.js, TailwindCSS, SASS, Redux</p>
 						</div>
 					</div>
 					<div className='card bg-base-300'>
