@@ -59,7 +59,7 @@ export default function HomePage() {
             <p className="pt-3 text-lg text-content-mid">
               I have a deep passion for constantly learning and exploring new
               areas of computer science, such as machine learning (NLP),
-              computer security and cloud computing. In my free time, I enjoy
+              cloud computing and system architecture. In my free time, I enjoy
               working on side projects to further improve my skills. Feel free
               to browse some of my{" "}
               <Link href="/projects">
