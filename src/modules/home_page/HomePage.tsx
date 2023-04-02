@@ -57,11 +57,11 @@ export default function HomePage() {
               .
             </p>
             <p className="pt-3 text-lg text-content-mid">
-              I have a deep passion for constantly learning and exploring new
-              areas of computer science, such as machine learning (NLP),
-              cloud computing and system architecture. In my free time, I enjoy
-              working on side projects to further improve my skills. Feel free
-              to browse some of my{" "}
+              I have a deep passion for constantly learning and exploring
+              different areas of computer science, such as machine learning
+              (NLP), cloud computing and system architecture. In my free time, I
+              enjoy working on side projects to further improve my skills. Feel
+              free to browse some of my{" "}
               <Link href="/projects">
                 <span className="font-semibold text-primary link">
                   Recent works
