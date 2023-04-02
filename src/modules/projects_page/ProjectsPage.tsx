@@ -15,7 +15,7 @@ export default function ProjectPages() {
 						The app was published on both the App Store and Google Play Store, having{" "}
 						<span className='text-primary'>20K+ downloads</span> ,{" "}
 						<span className='text-primary'>4.5+ average star rates</span>, {" "}
-						<span className='text-primary'>2.8K+ monthly active users</span>, and {" "}
+						<span className='text-primary'>3K+ monthly active users</span>, and {" "}
 						<span className='text-primary'>100+ monthly active subscriptions</span>.
 					</p>
 					<p className='pt-3'>
