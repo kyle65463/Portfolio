@@ -169,7 +169,7 @@ export default function HomePage() {
             <div className="card-body">
               <h2 className="card-title">Web Development</h2>
               <p className="text-content-mid">
-                HTML/CSS, React, Next.js, TailwindCSS, Redux
+                HTML/CSS, Express, React, Next.js, TailwindCSS, Redux, Cypress
               </p>
             </div>
           </div>
@@ -177,7 +177,7 @@ export default function HomePage() {
             <div className="card-body">
               <h2 className="card-title">Others</h2>
               <p className="text-content-mid">
-                Flutter, Express, GCP, Firebase, Git
+                Flutter, GCP, Firebase, Git, CircleCI
               </p>
               <p className="text-content-mid">
                 English (TOEIC 940), Japanese (N2)
