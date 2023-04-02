@@ -161,7 +161,7 @@ export default function HomePage() {
             <div className="card-body">
               <h2 className="card-title">Programming Languages</h2>
               <p className="text-content-mid">
-                JavaScript/TypeScript, Python, C/C++, Java, Dart
+                JavaScript/TypeScript, Python, C/C++, Dart
               </p>
             </div>
           </div>
