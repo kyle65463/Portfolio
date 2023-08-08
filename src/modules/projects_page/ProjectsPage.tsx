@@ -13,16 +13,14 @@ export default function ProjectPages() {
 					</p>
 					<p className='pt-3'>
 						The app was published on both the App Store and Google Play Store, having{" "}
-						<span className='text-primary'>20K+ downloads</span> ,{" "}
+						<span className='text-primary'>35K+ downloads</span> ,{" "}
 						<span className='text-primary'>4.5+ average star rates</span>, {" "}
 						<span className='text-primary'>3K+ monthly active users</span>, and {" "}
-						<span className='text-primary'>100+ monthly active subscriptions</span>.
+						<span className='text-primary'>150+ monthly active subscriptions</span>.
 					</p>
 					<p className='pt-3'>
 						The app was designed and developed by myself from scratch using the{" "}
-						<span className='text-primary'>Flutter</span> framework. I'm currently working on the web
-						version with <span className='text-primary'>React</span> and{" "}
-						<span className='text-primary'>Express</span>.
+						<span className='text-primary'>Flutter</span> framework. 
 					</p>
 				</>
 			),
@@ -34,13 +32,6 @@ export default function ProjectPages() {
 	];
 
 	const projects2 = [
-		{
-			title: "Zhiren",
-			link: "https://www.zhiren.io/",
-			content:
-				"A website that helps computer science major freshmen create resumes with ease.",
-			image: "/projects/zhiren.png",
-		},
 		{
 			title: "Cuby",
 			link: "https://play.google.com/store/apps/details?id=com.kyle65463.cubetimer",
