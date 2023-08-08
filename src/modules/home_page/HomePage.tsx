@@ -72,7 +72,7 @@ export default function HomePage() {
               </h2>
             </div>
             <p className="text-lg text-content-mid">
-              I'm currently pursuing a degree in computer science at{" "}
+              I'm currently pursuing a master degree in computer science at{" "}
               <span className="font-semibold text-primary">
                 National Taiwan University
               </span>{" "}
@@ -85,8 +85,8 @@ export default function HomePage() {
             </p>
             <p className="pt-3 text-lg text-content-mid">
               I have a deep passion for constantly learning and exploring
-              different areas of computer science, such as machine learning
-              (NLP), cloud computing and system architecture. In my free time, I
+              different areas of computer science, such as system architecture,
+              cloud computing and machine learning (NLP). In my free time, I
               enjoy working on side projects to further improve my skills. Feel
               free to browse some of my{" "}
               <Link href="/projects">

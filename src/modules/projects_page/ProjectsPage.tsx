@@ -33,6 +33,13 @@ export default function ProjectPages() {
 
 	const projects2 = [
 		{
+			title: "NTU Course",
+			link: "https://course.ntu.edu.tw",
+			content:
+				"A remake of the official NTU course information website with a modern UI and advanced search features.",
+			image: "/projects/neo.png",
+		},
+		{
 			title: "Cuby",
 			link: "https://play.google.com/store/apps/details?id=com.kyle65463.cubetimer",
 			content:
