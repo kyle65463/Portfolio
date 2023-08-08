@@ -2,6 +2,33 @@ import Link from "next/link";
 import FadeIn from "react-fade-in";
 
 export default function HomePage() {
+  const experiences = [
+    {
+      position: "Backend Engineer Intern",
+      place: "Dcard Taiwan Ltd.",
+      time: "Jul 2023 - PRESENT",
+      img: "dcard.png",
+    },
+    {
+      position: "Backend Engineer",
+      place: "National Taiwan University Office of Academic Affairs",
+      time: "Nov 2022 - PRESENT",
+      img: "ntu.jpeg",
+    },
+    {
+      position: "Frontend Engineer Intern",
+      place: "SUIQUI Co., Ltd.",
+      time: "Nov 2022 - PRESENT",
+      img: "suiqui.png",
+    },
+    {
+      position: "Wired Network Group Leader",
+      place: "NTU CSIE Network Administration and System Administration Team",
+      time: "Mar 2021 - Aug 2022",
+      img: "ntu.jpeg",
+    },
+  ];
+
   return (
     <div className="pt-12 lg:pt-24">
       <section className="flex flex-col items-center justify-center pt-20 pb-16 page-px lg:pb-24 lg:flex-row">
@@ -52,7 +79,7 @@ export default function HomePage() {
               (NTU). Alongside my studies, I'm also a skilled
               <span className="font-semibold text-primary">
                 {" "}
-                Full-Stack Web/App Developer{" "} 
+                Full-Stack Web/App Developer{" "}
               </span>
               with a strong focus on backend engineering.
             </p>
@@ -75,12 +102,8 @@ export default function HomePage() {
       <div className="flex flex-col pt-20 pb-24 page-px bg-base-300 lg:flex-row">
         <section className="flex-1">
           <h2 className="text-3xl font-medium font-roboto">Education</h2>
-          <div className="flex items-center pt-10">
-            <div className="avatar">
-              <div className="rounded-full w-14">
-                <img src="ntu.jpeg" alt="ntu" />
-              </div>
-            </div>
+          <div className="flex pt-10">
+            <p className="text-3xl leading-none select-none">·</p>
             <div className="flex-1 pl-4">
               <h3 className="text-xl font-semibold">
                 National Taiwan University
@@ -88,80 +111,38 @@ export default function HomePage() {
               <h4>
                 Bachelor of Computer Science and Informational Engineering
               </h4>
-              <span className="text-sm text-content-light">
-                2019 - 2023
-              </span>
+              <span className="text-sm text-content-light">2019 - 2023</span>
             </div>
           </div>
-          <div className="flex items-center pt-8">
-            <div className="avatar">
-              <div className="rounded-full w-14">
-                <img src="ntu.jpeg" alt="ntu" />
-              </div>
-            </div>
+          <div className="flex pt-8">
+            <p className="text-3xl leading-none select-none">·</p>
             <div className="flex-1 pl-4">
               <h3 className="text-xl font-semibold">
                 National Taiwan University
               </h3>
               <h4>Creativity and Entrepreneurship Program</h4>
-              <span className="text-sm text-content-light">
-                2022 - 2023 
-              </span>
+              <span className="text-sm text-content-light">2022 - 2023</span>
             </div>
           </div>
         </section>
         <section className="flex-1 pt-20 pl-0 lg:pl-10 lg:pt-0">
           <h2 className="text-3xl font-medium font-roboto">Experience</h2>
-          <div className="pt-10">
-            <div className="flex">
-              <p className="pr-3 text-3xl leading-none select-none">·</p>
-              <div>
-                <h3 className="text-xl font-semibold">
-                  Backend Engineer Intern
-                </h3>
-                <h4>Dcard Taiwan Ltd.</h4>
-                <span className="text-sm text-content-light">
-                  Jul 2023 - PRESENT
-                </span>
+          <section className="pt-10 space-y-8">
+            {experiences.map((exp) => (
+              <div className="flex items-center">
+                <div className="avatar">
+                  <div className="rounded-full w-14">
+                    <img src={exp.img} alt="ntu" />
+                  </div>
+                </div>
+                <div className="flex-1 pl-4">
+                  <h3 className="text-xl font-semibold">{exp.position}</h3>
+                  <h4>{exp.place}</h4>
+                  <span className="text-sm text-content-light">{exp.time}</span>
+                </div>
               </div>
-            </div>
-            <div className="flex pt-6">
-              <p className="pr-3 text-3xl leading-none select-none">·</p>
-              <div>
-                <h3 className="text-xl font-semibold">Backend Engineer</h3>
-                <h4>National Taiwan University Office of Academic Affairs</h4>
-                <span className="text-sm text-content-light">
-                  Nov 2022 - PRESENT
-                </span>
-              </div>
-            </div>
-            <div className="flex pt-6">
-              <p className="pr-3 text-3xl leading-none select-none">·</p>
-              <div>
-                <h3 className="text-xl font-semibold">
-                  Frontend Engineer Intern
-                </h3>
-                <h4>SUIQUI Co.,Ltd.</h4>
-                <span className="text-sm text-content-light">
-                  Sep 2021 - Mar 2023
-                </span>
-              </div>
-            </div>
-            <div className="flex pt-6">
-              <p className="pr-3 text-3xl leading-none select-none">·</p>
-              <div>
-                <h3 className="text-xl font-semibold">
-                  Wired Network Group Leader
-                </h3>
-                <h4>
-                  NTU CSIE Network Administration and System Administration Team
-                </h4>
-                <span className="text-sm text-content-light">
-                  Mar 2021 - Aug 2022
-                </span>
-              </div>
-            </div>
-          </div>
+            ))}
+          </section>
         </section>
       </div>
       <section className="pt-20 pb-24 page-px">
